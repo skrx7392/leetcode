@@ -9,7 +9,7 @@ namespace leetcode.Easy
   // LeetCode Problem 13 - https://leetcode.com/problems/roman-to-integer/
   public class RomanToInteger
   {
-    private Dictionary<string, int> stringNumberMap;
+    private readonly Dictionary<string, int> stringNumberMap;
 
     public RomanToInteger() { 
       this.stringNumberMap = new Dictionary<String, int>();
@@ -52,9 +52,3 @@ namespace leetcode.Easy
     }
   }
 }
-
-/**
- * 
- * 
- * 
- */
