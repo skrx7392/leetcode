@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace leetcode.Easy
 {
-  // LeetCode Problem 13 - https://leetcode.com/problems/roman-to-integer/
+  /// <summary>
+  /// LeetCode Problem 13 - https://leetcode.com/problems/roman-to-integer/
+  /// </summary>
   public class RomanToInteger
   {
     private readonly Dictionary<string, int> stringNumberMap;

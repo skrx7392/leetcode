@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace leetcode.Easy
 {
-  // Leetcode 21 - https://leetcode.com/problems/merge-two-sorted-lists/
+  /// <summary>
+  /// Leetcode 21 - https://leetcode.com/problems/merge-two-sorted-lists/
+  /// </summary>
   public class MergeTwoSortedLists
   {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)

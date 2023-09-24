@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace leetcode.Easy
 {
-  // Leetcode 20 - https://leetcode.com/problems/valid-parentheses/
+  /// <summary>
+  /// Leetcode 20 - https://leetcode.com/problems/valid-parentheses/
+  /// </summary>
   public class ValidParentheses
   {
     public bool IsValid(string s)
