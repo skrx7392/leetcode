@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace leetcode.Easy
 {
-  // Leetcode 14 - https://leetcode.com/problems/longest-common-prefix/
+  /// <summary>
+  /// Leetcode 14 - https://leetcode.com/problems/longest-common-prefix/
+  /// </summary>
   public class LongestCommonPrefix
   {
     public String GetLongestCommonPrefix(string[] strs)
