@@ -22,8 +22,12 @@ namespace leetcode.Easy
           alphabetArray[alphabet - 'a'] = true;
           counter++;
         }
+#pragma warning disable S2583 // Conditionally executed code should be reachable
         if (counter == 26)
+        {
           return true;
+        }
+#pragma warning restore S2583 // Conditionally executed code should be reachable
       }
       return false;
     }
