@@ -28,5 +28,14 @@ namespace leetcode.Easy.Tests
       var result = checker.run(s);
       Assert.IsFalse(result);
     }
+
+    [Test()]
+    public void runTest3()
+    {
+      string s = "thequickbrownfoxjumpsoverthelazydo";
+      var checker = new CheckIfPangram();
+      var result = checker.run(s);
+      Assert.IsFalse(result);
+    }
   }
 }
